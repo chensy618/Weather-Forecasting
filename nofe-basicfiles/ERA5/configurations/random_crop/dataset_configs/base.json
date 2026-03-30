@@ -1,0 +1,17 @@
+{
+    "data_folder_path": "../data/",
+    "dataset_save_path": "../datasets/random_crop/",
+    "N_min": 3000,
+    "N_max": 7000,
+    "min_lat_span": 10,
+    "min_lon_span": 10,
+    "k": 10,
+    "perplexity": 10,
+    "sampling_method": "random",
+    "train_date_start_end": ["2018-01-01", "2018-01-31"],
+    "test_date_start_end": ["2018-02-01", "2018-02-10"],
+    "train_samples_per_date": 100,
+    "test_samples_per_date": 20,
+    "feature_mode": "channel_and_position",
+    "vars": ["w", "v", "z", "q", "r", "t", "d", "o3", "pv", "u", "vo"]
+}

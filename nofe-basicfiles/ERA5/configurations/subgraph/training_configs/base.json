@@ -1,0 +1,12 @@
+{
+    "mode": "subgraph",
+    "dataset_id": "base",
+    "model_id": "base",
+    "epochs": 20,
+    "batch_size": 1,
+    "learning_rate": 0.001,
+    "scheduler_step": 2,
+    "scheduler_gamma": 0.7,
+    "random_seed": 42
+}
+

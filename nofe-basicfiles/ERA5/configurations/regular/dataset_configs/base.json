@@ -1,0 +1,18 @@
+{
+    "data_folder_path": "../data/",
+    "dataset_save_path": "../datasets/regular/",
+    "lat_min": 30,
+    "lat_max": 70,
+    "lon_min": -10,
+    "lon_max": 30,
+    "N": 5000,
+    "k": 10,
+    "perplexity": 10,
+    "sampling_method": "random",
+    "train_date_start_end": ["2018-01-01", "2018-01-31"],
+    "test_date_start_end": ["2018-02-01", "2018-02-10"],
+    "train_samples_per_date": 50,
+    "test_samples_per_date": 20,
+    "feature_mode": "channel_and_position",
+    "vars": ["w", "v", "z", "q", "r", "t", "d", "o3", "pv", "u", "vo"]
+}

@@ -1,0 +1,23 @@
+{
+    "data_folder_path": "../data/",
+    "dataset_save_path": "../datasets/subgraph/",
+    "lat_min": 30,
+    "lat_max": 70,
+    "lon_min": -10,
+    "lon_max": 30,
+    "N_in": 10000,
+    "N_out": 10000,
+    "k_in": 5,
+    "k_out": 5,
+    "k_cross": 5,
+    "perplexity": 20,
+    "input_sampling_method": "random",
+    "output_sampling_method": "random",
+    "train_date_start_end": ["2018-01-01", "2018-12-31"],
+    "test_date_start_end": ["2019-01-01", "2019-01-31"],
+    "train_samples_per_date": 10,
+    "test_samples_per_date": 2,
+    "feature_mode": "channel_and_position",
+    "interpolate_graph_features": true,
+    "vars": ["w", "v", "z", "q", "r", "t", "d", "o3", "pv", "u", "vo"]
+}
