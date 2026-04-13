@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments / Conda
+.venv/
+venv/
+env/
+.env
+*.conda
+conda-meta/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+data/
+*.nc
+*.zarr/
+*.zarr
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.csv
+*.tfrecord
+
+# Model checkpoints & outputs
+*.ckpt
+*.pt
+*.pth
+checkpoints/
+outputs/
+logs/
+wandb/
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.log
+tmp/
+temp/
