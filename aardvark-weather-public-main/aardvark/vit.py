@@ -154,7 +154,7 @@ class ViT(nn.Module):
                     qkv_bias=True,
                     drop_path=dpr[i],
                     norm_layer=nn.LayerNorm,
-                    drop=drop_rate,
+                    proj_drop=drop_rate,
                 )
                 for i in range(depth)
             ]
@@ -289,7 +289,7 @@ class ViT(nn.Module):
     def forward(self, x, lead_times=None, film_index=None):
 
         if lead_times is None:
-            lead_times = torch.ones(x.shape[0]).float().cuda().unsqueeze(-1)
+            lead_times = torch.ones(x.shape[0]).float().to(x.device).unsqueeze(-1)
 
         out_transformers = self.forward_encoder(x, lead_times[:, 0], self.default_vars)
         preds = self.head(out_transformers)

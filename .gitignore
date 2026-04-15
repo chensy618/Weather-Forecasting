@@ -46,6 +46,11 @@ outputs/
 logs/
 wandb/
 mlruns/
+trained_model/
+trained_models/
+
+# Claude Code
+.claude/
 
 # OS
 .DS_Store
