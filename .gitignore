@@ -62,6 +62,13 @@ Thumbs.db
 *.swp
 *.swo
 
+# Secrets / credentials
+.env.local
+.env.*.local
+frost_credentials*
+*_credentials*
+*_secrets*
+
 # Misc
 *.log
 tmp/
