@@ -73,3 +73,6 @@ frost_credentials*
 *.log
 tmp/
 temp/
+.err/
+.out/
+
